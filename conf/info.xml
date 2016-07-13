@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">비회원 검색 금지 애드온</title>
+    <title xml:lang="en">Block Guest Search</title>
+    <description xml:lang="ko">비회원의 게시판 검색, 통합검색 등을 금지합니다.</description>
+    <description xml:lang="en">Block searching by non-members.</description>
+    <version>1.0</version>
+    <date>2016-07-14</date>
+    <author email_address="kijin@kijinsung.com" link="https://github.com/kijin">
+        <name xml:lang="ko">Kijin Sung</name>
+        <name xml:lang="en">Kijin Sung</name>
+    </author>
+	<extra_vars>
+		<var name="block_board_search" type="select">
+			<title xml:lang="ko">게시판 검색 금지</title>
+			<title xml:lang="en">Block board search</title>
+			<options value="Y">
+				<title xml:lang="ko">예 (게시판 스킨에서 검색창을 숨기기를 원하시는 경우 별도로 수정하셔야 합니다.)</title>
+				<title xml:lang="en">Yes (This does not have any effect on the visibility of the search form.)</title>
+			</options>
+			<options value="N">
+				<title xml:lang="ko">아니오</title>
+				<title xml:lang="en">No</title>
+			</options>
+		</var>
+		<var name="block_total_search" type="select">
+			<title xml:lang="ko">통합검색 금지</title>
+			<title xml:lang="en">Block integrated search</title>
+			<options value="Y">
+				<title xml:lang="ko">예 (사용 대상을 모두 해제하거나 &quot;선택한 모듈에서 사용안함&quot; 방식으로 선택하셔야 합니다.)</title>
+				<title xml:lang="en">Yes (This option cannot be used if you select any targets below.)</title>
+			</options>
+			<options value="N">
+				<title xml:lang="ko">아니오</title>
+				<title xml:lang="en">No</title>
+			</options>
+		</var>
+	</extra_vars>
+</addon>

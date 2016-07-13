@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lang>
+	<item name="msg_guest_search_blocked_board">
+		<value xml:lang="ko"><![CDATA[비회원 검색이 금지된 게시판입니다.]]></value>
+		<value xml:lang="en"><![CDATA[Non-members are not allowed to search this board.]]></value>
+	</item>
+	<item name="msg_guest_search_blocked_is">
+		<value xml:lang="ko"><![CDATA[비회원은 통합검색을 사용할 수 없습니다.]]></value>
+		<value xml:lang="en"><![CDATA[Non-members are not allowed to use integrated search.]]></value>
+	</item>
+</lang>
