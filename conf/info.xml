@@ -23,6 +23,18 @@
 				<title xml:lang="en">No</title>
 			</options>
 		</var>
+		<var name="block_member_document_search" type="select">
+			<title xml:lang="ko">작성 글 보기 금지</title>
+			<title xml:lang="en">Block written articles search</title>
+			<options value="Y">
+				<title xml:lang="ko">예 (회원 메뉴의 &quot;작성 글 보기&quot; 항목도 숨겨집니다.)</title>
+				<title xml:lang="en">Yes (The &quot;written articles&quot; menu will also be hidden.)</title>
+			</options>
+			<options value="N">
+				<title xml:lang="ko">아니오</title>
+				<title xml:lang="en">No</title>
+			</options>
+		</var>
 		<var name="block_total_search" type="select">
 			<title xml:lang="ko">통합검색 금지</title>
 			<title xml:lang="en">Block integrated search</title>
